@@ -105,10 +105,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Tabs\" />
+    <Folder Include="Tabs\ComponentTabs\" />
+    <Folder Include="Tabs\Component\" />
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="LaunchScreen.storyboard" />
-    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Resources\Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -118,36 +121,36 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="FirstViewController.cs" />
-    <Compile Include="SecondViewController.cs" />
-    <Compile Include="FirstViewController.designer.cs">
+    <Compile Include="Tabs\FirstViewController.cs" />
+    <Compile Include="Tabs\FirstViewController.designer.cs">
       <DependentUpon>FirstViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="SecondViewController.designer.cs">
-      <DependentUpon>SecondViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ThirdViewController.cs" />
-    <Compile Include="FourthViewController.cs" />
-    <Compile Include="ThirdViewController.designer.cs">
-      <DependentUpon>ThirdViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FourthViewController.designer.cs">
+    <Compile Include="Tabs\FourthViewController.cs" />
+    <Compile Include="Tabs\FourthViewController.designer.cs">
       <DependentUpon>FourthViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="AboutTableViewController.cs" />
-    <Compile Include="AboutTableViewController.designer.cs">
+    <Compile Include="Tabs\SecondViewController.cs" />
+    <Compile Include="Tabs\SecondViewController.designer.cs">
+      <DependentUpon>SecondViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\ThirdViewController.cs" />
+    <Compile Include="Tabs\ThirdViewController.designer.cs">
+      <DependentUpon>ThirdViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\ComponentTabs\AboutTableViewController.cs" />
+    <Compile Include="Tabs\ComponentTabs\AboutTableViewController.designer.cs">
       <DependentUpon>AboutTableViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="ColleaguesViewController.cs" />
-    <Compile Include="ColleaguesViewController.designer.cs">
-      <DependentUpon>ColleaguesViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AvailabilityViewController.cs" />
-    <Compile Include="AvailabilityViewController.designer.cs">
+    <Compile Include="Tabs\ComponentTabs\AvailabilityViewController.cs" />
+    <Compile Include="Tabs\ComponentTabs\AvailabilityViewController.designer.cs">
       <DependentUpon>AvailabilityViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProfilePagerTabVC.cs" />
-    <Compile Include="ProfilePagerTabVC.designer.cs">
+    <Compile Include="Tabs\ComponentTabs\ColleaguesViewController.cs" />
+    <Compile Include="Tabs\ComponentTabs\ColleaguesViewController.designer.cs">
+      <DependentUpon>ColleaguesViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\Component\ProfilePagerTabVC.cs" />
+    <Compile Include="Tabs\Component\ProfilePagerTabVC.designer.cs">
       <DependentUpon>ProfilePagerTabVC.cs</DependentUpon>
     </Compile>
   </ItemGroup>
